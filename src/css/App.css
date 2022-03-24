@@ -1,3 +1,11 @@
-.App {
-    text-align: center;
+#card {
+    float: left; 
+    position: relative; 
+    left: 50%;
+}
+
+#cards {
+    float: right; 
+    position: relative; 
+    left: -50%;
 }
