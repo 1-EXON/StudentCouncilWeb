@@ -1,24 +1,15 @@
 import React from 'react'
-import './App.css'
+import './css/App.css'
 
-function App() {
+import Nav from './components/Nav'
+
+export default function App() {
     return (
-        <div className="App">
-        <header className="App-header">
-            <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-            </p>
-            <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Learn React
-            </a>
-        </header>
+        <div>
+            <Nav />
+            <h1 className="text-3xl font-bold underline text-blue-600">
+                Hello world!
+            </h1>
         </div>
     )
 }
-
-export default App;
